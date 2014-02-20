@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BD432EC18B5A06D00F50F78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD432EB18B5A06D00F50F78 /* Foundation.framework */; };
+		9BD432EE18B5A06D00F50F78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD432ED18B5A06D00F50F78 /* CoreGraphics.framework */; };
+		9BD432F018B5A06D00F50F78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD432EF18B5A06D00F50F78 /* UIKit.framework */; };
+		9BD432F618B5A06D00F50F78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BD432F418B5A06D00F50F78 /* InfoPlist.strings */; };
+		9BD432F818B5A06D00F50F78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD432F718B5A06D00F50F78 /* main.m */; };
+		9BD432FC18B5A06D00F50F78 /* LWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD432FB18B5A06D00F50F78 /* LWAppDelegate.m */; };
+		9BD432FF18B5A06D00F50F78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD432FD18B5A06D00F50F78 /* Main.storyboard */; };
+		9BD4330218B5A06D00F50F78 /* LWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD4330118B5A06D00F50F78 /* LWViewController.m */; };
+		9BD4330418B5A06D00F50F78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD4330318B5A06D00F50F78 /* Images.xcassets */; };
+		9BD4330B18B5A06D00F50F78 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD4330A18B5A06D00F50F78 /* XCTest.framework */; };
+		9BD4330C18B5A06D00F50F78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD432EB18B5A06D00F50F78 /* Foundation.framework */; };
+		9BD4330D18B5A06D00F50F78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD432EF18B5A06D00F50F78 /* UIKit.framework */; };
+		9BD4332A18B5B4D400F50F78 /* RoundBackgroundLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD4332918B5B4D400F50F78 /* RoundBackgroundLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BD4330E18B5A06D00F50F78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BD432E018B5A06D00F50F78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BD432E718B5A06D00F50F78;
+			remoteInfo = RoundBackgroundLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BD432E818B5A06D00F50F78 /* RoundBackgroundLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoundBackgroundLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD432EB18B5A06D00F50F78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9BD432ED18B5A06D00F50F78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9BD432EF18B5A06D00F50F78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9BD432F318B5A06D00F50F78 /* RoundBackgroundLabel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RoundBackgroundLabel-Info.plist"; sourceTree = "<group>"; };
+		9BD432F518B5A06D00F50F78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BD432F718B5A06D00F50F78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BD432F918B5A06D00F50F78 /* RoundBackgroundLabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoundBackgroundLabel-Prefix.pch"; sourceTree = "<group>"; };
+		9BD432FA18B5A06D00F50F78 /* LWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWAppDelegate.h; sourceTree = "<group>"; };
+		9BD432FB18B5A06D00F50F78 /* LWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWAppDelegate.m; sourceTree = "<group>"; };
+		9BD432FE18B5A06D00F50F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BD4330018B5A06D00F50F78 /* LWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWViewController.h; sourceTree = "<group>"; };
+		9BD4330118B5A06D00F50F78 /* LWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWViewController.m; sourceTree = "<group>"; };
+		9BD4330318B5A06D00F50F78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9BD4330918B5A06D00F50F78 /* RoundBackgroundLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoundBackgroundLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD4330A18B5A06D00F50F78 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9BD4332818B5B4D400F50F78 /* RoundBackgroundLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundBackgroundLabel.h; sourceTree = "<group>"; };
+		9BD4332918B5B4D400F50F78 /* RoundBackgroundLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundBackgroundLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BD432E518B5A06D00F50F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD432EE18B5A06D00F50F78 /* CoreGraphics.framework in Frameworks */,
+				9BD432F018B5A06D00F50F78 /* UIKit.framework in Frameworks */,
+				9BD432EC18B5A06D00F50F78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD4330618B5A06D00F50F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD4330B18B5A06D00F50F78 /* XCTest.framework in Frameworks */,
+				9BD4330D18B5A06D00F50F78 /* UIKit.framework in Frameworks */,
+				9BD4330C18B5A06D00F50F78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BD432DF18B5A06D00F50F78 = {
+			isa = PBXGroup;
+			children = (
+				9BD432F118B5A06D00F50F78 /* RoundBackgroundLabel */,
+				9BD432EA18B5A06D00F50F78 /* Frameworks */,
+				9BD432E918B5A06D00F50F78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BD432E918B5A06D00F50F78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BD432E818B5A06D00F50F78 /* RoundBackgroundLabel.app */,
+				9BD4330918B5A06D00F50F78 /* RoundBackgroundLabelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BD432EA18B5A06D00F50F78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BD432EB18B5A06D00F50F78 /* Foundation.framework */,
+				9BD432ED18B5A06D00F50F78 /* CoreGraphics.framework */,
+				9BD432EF18B5A06D00F50F78 /* UIKit.framework */,
+				9BD4330A18B5A06D00F50F78 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BD432F118B5A06D00F50F78 /* RoundBackgroundLabel */ = {
+			isa = PBXGroup;
+			children = (
+				9BD4332818B5B4D400F50F78 /* RoundBackgroundLabel.h */,
+				9BD4332918B5B4D400F50F78 /* RoundBackgroundLabel.m */,
+				9BD432FA18B5A06D00F50F78 /* LWAppDelegate.h */,
+				9BD432FB18B5A06D00F50F78 /* LWAppDelegate.m */,
+				9BD432FD18B5A06D00F50F78 /* Main.storyboard */,
+				9BD4330018B5A06D00F50F78 /* LWViewController.h */,
+				9BD4330118B5A06D00F50F78 /* LWViewController.m */,
+				9BD4330318B5A06D00F50F78 /* Images.xcassets */,
+				9BD432F218B5A06D00F50F78 /* Supporting Files */,
+			);
+			path = RoundBackgroundLabel;
+			sourceTree = "<group>";
+		};
+		9BD432F218B5A06D00F50F78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BD432F318B5A06D00F50F78 /* RoundBackgroundLabel-Info.plist */,
+				9BD432F418B5A06D00F50F78 /* InfoPlist.strings */,
+				9BD432F718B5A06D00F50F78 /* main.m */,
+				9BD432F918B5A06D00F50F78 /* RoundBackgroundLabel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BD432E718B5A06D00F50F78 /* RoundBackgroundLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD4331A18B5A06D00F50F78 /* Build configuration list for PBXNativeTarget "RoundBackgroundLabel" */;
+			buildPhases = (
+				9BD432E418B5A06D00F50F78 /* Sources */,
+				9BD432E518B5A06D00F50F78 /* Frameworks */,
+				9BD432E618B5A06D00F50F78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoundBackgroundLabel;
+			productName = RoundBackgroundLabel;
+			productReference = 9BD432E818B5A06D00F50F78 /* RoundBackgroundLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BD4330818B5A06D00F50F78 /* RoundBackgroundLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD4331D18B5A06D00F50F78 /* Build configuration list for PBXNativeTarget "RoundBackgroundLabelTests" */;
+			buildPhases = (
+				9BD4330518B5A06D00F50F78 /* Sources */,
+				9BD4330618B5A06D00F50F78 /* Frameworks */,
+				9BD4330718B5A06D00F50F78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BD4330F18B5A06D00F50F78 /* PBXTargetDependency */,
+			);
+			name = RoundBackgroundLabelTests;
+			productName = RoundBackgroundLabelTests;
+			productReference = 9BD4330918B5A06D00F50F78 /* RoundBackgroundLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BD432E018B5A06D00F50F78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LW;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = LeeWong;
+				TargetAttributes = {
+					9BD4330818B5A06D00F50F78 = {
+						TestTargetID = 9BD432E718B5A06D00F50F78;
+					};
+				};
+			};
+			buildConfigurationList = 9BD432E318B5A06D00F50F78 /* Build configuration list for PBXProject "RoundBackgroundLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BD432DF18B5A06D00F50F78;
+			productRefGroup = 9BD432E918B5A06D00F50F78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BD432E718B5A06D00F50F78 /* RoundBackgroundLabel */,
+				9BD4330818B5A06D00F50F78 /* RoundBackgroundLabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BD432E618B5A06D00F50F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD4330418B5A06D00F50F78 /* Images.xcassets in Resources */,
+				9BD432F618B5A06D00F50F78 /* InfoPlist.strings in Resources */,
+				9BD432FF18B5A06D00F50F78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD4330718B5A06D00F50F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BD432E418B5A06D00F50F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD432F818B5A06D00F50F78 /* main.m in Sources */,
+				9BD4332A18B5B4D400F50F78 /* RoundBackgroundLabel.m in Sources */,
+				9BD432FC18B5A06D00F50F78 /* LWAppDelegate.m in Sources */,
+				9BD4330218B5A06D00F50F78 /* LWViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD4330518B5A06D00F50F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BD4330F18B5A06D00F50F78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BD432E718B5A06D00F50F78 /* RoundBackgroundLabel */;
+			targetProxy = 9BD4330E18B5A06D00F50F78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BD432F418B5A06D00F50F78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BD432F518B5A06D00F50F78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9BD432FD18B5A06D00F50F78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BD432FE18B5A06D00F50F78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BD4331818B5A06D00F50F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9BD4331918B5A06D00F50F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BD4331B18B5A06D00F50F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoundBackgroundLabel/RoundBackgroundLabel-Prefix.pch";
+				INFOPLIST_FILE = "RoundBackgroundLabel/RoundBackgroundLabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9BD4331C18B5A06D00F50F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoundBackgroundLabel/RoundBackgroundLabel-Prefix.pch";
+				INFOPLIST_FILE = "RoundBackgroundLabel/RoundBackgroundLabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9BD4331E18B5A06D00F50F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RoundBackgroundLabel.app/RoundBackgroundLabel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoundBackgroundLabel/RoundBackgroundLabel-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RoundBackgroundLabelTests/RoundBackgroundLabelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9BD4331F18B5A06D00F50F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RoundBackgroundLabel.app/RoundBackgroundLabel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoundBackgroundLabel/RoundBackgroundLabel-Prefix.pch";
+				INFOPLIST_FILE = "RoundBackgroundLabelTests/RoundBackgroundLabelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BD432E318B5A06D00F50F78 /* Build configuration list for PBXProject "RoundBackgroundLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD4331818B5A06D00F50F78 /* Debug */,
+				9BD4331918B5A06D00F50F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD4331A18B5A06D00F50F78 /* Build configuration list for PBXNativeTarget "RoundBackgroundLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD4331B18B5A06D00F50F78 /* Debug */,
+				9BD4331C18B5A06D00F50F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD4331D18B5A06D00F50F78 /* Build configuration list for PBXNativeTarget "RoundBackgroundLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD4331E18B5A06D00F50F78 /* Debug */,
+				9BD4331F18B5A06D00F50F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BD432E018B5A06D00F50F78 /* Project object */;
+}

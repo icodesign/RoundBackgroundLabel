@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="LWViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SR6-RC-3n8"/>
+                        <viewControllerLayoutGuide type="bottom" id="T7i-EN-Nvb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WX9-Uz-kks" customClass="RoundBackgroundLabel">
+                                <rect key="frame" x="38" y="58" width="19" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oaw-tq-NIM" customClass="RoundBackgroundLabel">
+                                <rect key="frame" x="38" y="171" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4GM-W3-Qe4" customClass="RoundBackgroundLabel">
+                                <rect key="frame" x="38" y="287" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BY3-hI-bwO" customClass="RoundBackgroundLabel">
+                                <rect key="frame" x="38" y="372" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BY3-hI-bwO" firstAttribute="top" secondItem="4GM-W3-Qe4" secondAttribute="bottom" constant="64" id="Qxb-ex-MsA"/>
+                            <constraint firstItem="4GM-W3-Qe4" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="38" id="Zgo-jk-sSE"/>
+                            <constraint firstItem="BY3-hI-bwO" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="38" id="Zmu-Xs-joB"/>
+                            <constraint firstItem="4GM-W3-Qe4" firstAttribute="top" secondItem="oaw-tq-NIM" secondAttribute="bottom" constant="95" id="dRt-Fm-QTS"/>
+                            <constraint firstItem="WX9-Uz-kks" firstAttribute="top" secondItem="SR6-RC-3n8" secondAttribute="bottom" constant="38" id="jE8-NM-dJZ"/>
+                            <constraint firstItem="WX9-Uz-kks" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="38" id="nyW-mf-rkS"/>
+                            <constraint firstItem="oaw-tq-NIM" firstAttribute="top" secondItem="WX9-Uz-kks" secondAttribute="bottom" constant="92" id="oGP-3v-8D2"/>
+                            <constraint firstItem="oaw-tq-NIM" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="38" id="ooq-Qf-hJw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label1" destination="WX9-Uz-kks" id="ZhU-bO-XGW"/>
+                        <outlet property="label2" destination="oaw-tq-NIM" id="7MW-CJ-Ljh"/>
+                        <outlet property="label3" destination="4GM-W3-Qe4" id="WhU-dB-jNa"/>
+                        <outlet property="label4" destination="BY3-hI-bwO" id="Czo-mm-wNl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
